@@ -8445,7 +8445,6 @@ public final class Settings {
          * @hide
          */
         public static final String POLICY_CONTROL = "policy_control";
-        public static final String POLICY_CONTROL_SELECTED = "policy_control_selected";
 
         /**
          * @hide
