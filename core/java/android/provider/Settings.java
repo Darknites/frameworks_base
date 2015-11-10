@@ -3644,6 +3644,7 @@ public final class Settings {
          * the setting value. See an example above.
          */
 
+<<<<<<< HEAD
          /**
          * Whether wifi settings will connect to access point automatically
          * 0 = automatically
@@ -3680,6 +3681,8 @@ public final class Settings {
         */
        public static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
 
+=======
+>>>>>>> c21acd8... fw: Move WIFI_AUTO_CONNECT_TYPE to CMSettings.
         /**
          * Color temperature of the display during the day
          * @hide
