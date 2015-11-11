@@ -946,8 +946,8 @@ public class PhoneWindowManager implements WindowManagerPolicy {
             resolver.registerContentObserver(CMSettings.System.getUriFor(
                     CMSettings.System.VOLUME_WAKE_SCREEN), false, this,
                     UserHandle.USER_ALL);
-            resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.NAVBAR_LEFT_IN_LANDSCAPE), false, this,
+            resolver.registerContentObserver(CMSettings.System.getUriFor(
+                    CMSettings.System.NAVBAR_LEFT_IN_LANDSCAPE), false, this,
                     UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.Secure.getUriFor(
                     Settings.Secure.NAVIGATION_BAR_HEIGHT), false, this,
@@ -2218,8 +2218,8 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                 mDevForceNavbar = devForceNavbar;
             }
 
-            mNavigationBarLeftInLandscape = Settings.System.getIntForUser(resolver,
-                    Settings.System.NAVBAR_LEFT_IN_LANDSCAPE, 0, UserHandle.USER_CURRENT) == 1;
+            mNavigationBarLeftInLandscape = CMSettings.System.getIntForUser(resolver,
+                    CMSettings.System.NAVBAR_LEFT_IN_LANDSCAPE, 0, UserHandle.USER_CURRENT) == 1;
 
             updateNavigationBarSize();
 

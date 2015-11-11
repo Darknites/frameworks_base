@@ -3644,16 +3644,7 @@ public final class Settings {
          * the setting value. See an example above.
          */
 
-<<<<<<< HEAD
-         /**
-         * Whether wifi settings will connect to access point automatically
-         * 0 = automatically
-         * 1 = manually
-         * @hide
-         */
-        public static final String WIFI_AUTO_CONNECT_TYPE = "wifi_auto_connect_type";
-
-	/**
+	   /**
         * Network traffic indicator, goes from least to greatest significant bitwise
         * 0 = Display up-stream traffic if set
         * 1 = Display down-stream traffic if set
@@ -3681,8 +3672,6 @@ public final class Settings {
         */
        public static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
 
-=======
->>>>>>> c21acd8... fw: Move WIFI_AUTO_CONNECT_TYPE to CMSettings.
         /**
           * Volume keys control cursor in text fields (default is 0)
           * 0 - Disabled
@@ -3705,12 +3694,6 @@ public final class Settings {
          * @hide
          */
         public static final String VOICE_LAUNCH_INTENT = "voice_launch_intent";
-
-        /**
-         * Whether navigation bar is placed on the left side in landscape mode
-         * @hide
-         */
-        public static final String NAVBAR_LEFT_IN_LANDSCAPE = "navigation_bar_left";
 
         /**
          * Locale for secondary overlay on dialer for t9 search input
