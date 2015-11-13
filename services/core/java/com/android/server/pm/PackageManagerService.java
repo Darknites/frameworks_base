@@ -6472,7 +6472,8 @@ public class PackageManagerService extends IPackageManager.Stub {
         PackageParser.Package p = pkg;
         synchronized (mInstallLock) {
             mPackageDexOptimizer.performDexOpt(p, null /* instruction sets */,
-                    false /* force dex */, false /* defer */, true /* include dependencies */);
+                    false /* force dex */, false /* defer */, true /* include dependencies */,
+                    false /* boot complete */);
         }
     }
 
