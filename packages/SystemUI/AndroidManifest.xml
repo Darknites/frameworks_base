@@ -21,7 +21,7 @@
         package="com.android.systemui"
         android:sharedUserId="android.uid.systemui"
         coreApp="true">
-
+    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
